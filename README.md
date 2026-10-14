@@ -25,4 +25,5 @@ To use youngstars.salon, add a file named `CNAME` containing `youngstars.salon`,
 
 - Service text is in `index.html`, `services/index.html`, `services/mens/index.html`, and `services/womens/index.html`.
 - Brand logos are in `brand-logos/`. The brand page is `brands/index.html`.
-- Founder photos are `assets/founder-1.png` and `assets/founder-2.png`.
+- Founder photos are `assets/founder-1.webp` and `assets/founder-2.webp`.
+- Styles live in `css/site.css`. After adding a new Tailwind class, rebuild with `npx tailwindcss@3.4.17 -c tailwind.config.js -i css/tailwind.css -o css/site.css --minify`.

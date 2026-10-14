@@ -1,0 +1,36 @@
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.service-scroller {
+  scrollbar-width: none;
+}
+
+.service-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.logo-img {
+  max-height: 8rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-img.logo-tall {
+  max-height: 11rem;
+}

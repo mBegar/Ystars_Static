@@ -20,6 +20,7 @@
     navToggle.addEventListener("click", () => {
       const open = mobileNav.classList.toggle("hidden") === false;
       navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      navToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
       navToggle.querySelector("[data-icon-open]").classList.toggle("hidden", open);
       navToggle.querySelector("[data-icon-close]").classList.toggle("hidden", !open);
     });
